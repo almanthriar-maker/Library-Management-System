@@ -20,7 +20,6 @@ namespace Library_Management_System
 
 
 
-
             //seed data
             title[0] = "Harry potter";
             ISBN[0] = "1408";
