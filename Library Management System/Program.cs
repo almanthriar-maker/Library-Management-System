@@ -16,6 +16,9 @@ namespace Library_Management_System
             bool[] bookAvailability = new bool[100]; // true = available, false = borrowed
             string[] borrowerName = new string[100];   //
             string[] author = new string[100];     //
+            string[] bookCategories = new string[100]; // NEW - Fiction, Science, History, etc.
+            string[] borrowCount = new string[100]; // NEW - track how many times each book was borrowed
+
             int LastBookIndex = -1; // 
 
 
@@ -26,6 +29,8 @@ namespace Library_Management_System
             bookAvailability[0] = true;
             borrowerName[0] = "Mayar";
             author[0] = "Mary Norton";
+            bookCategories[0] = "Fiction";
+            borrowCount[0] = "0";  
             LastBookIndex++;
 
             title[1] = "Home Alone";
@@ -33,6 +38,8 @@ namespace Library_Management_System
             bookAvailability[1] = true;
             borrowerName[1] = "Reema";
             author[1] = "John Hughes";
+            bookCategories[1] = "Comedy";
+            borrowCount[1] = "0";
             LastBookIndex++;
 
 
